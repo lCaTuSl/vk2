@@ -1,0 +1,186 @@
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    user-select: none;
+    min-width: max-content;
+}
+.logo .head {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--white);
+}
+.logo .sub-head {
+    font-size: 1em;
+    color: var(--grey);
+}
+.logo img    {
+    --logo_size: 49px;
+    width: var(--logo_size);
+    height:var(--logo_size);
+    object-fit: contain;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact--left a {
+    background-color: var(--grey);
+    border-radius: 20px;
+    padding: 1px 15px;
+}
+.contact--right a {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact a:not(:first-child) {
+    margin: 0px 0px 0px 15px;
+}
+
+
+
+
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-bar nav {
+    display: flex;
+    gap: 22px;
+    min-width: max-content;
+}
+.header-bar nav a {
+    color: var(--grey);
+}
+
+
+
+.search {
+    border-radius: 25px;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+}
+.search input {
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex {
+    display: flex;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.wrp {
+    width: 85vw;
+    max-width: 1800px;
+    min-width: 768px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    height: max-content;
+    margin: auto;
+}
+
+
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.footer-bar:not(:first-child) {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    gap: 12px;
+}
+.footer-navigation:nth-child(3n) {
+    margin: 0px 0px 0px auto;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--white);
+}
+
+
+
+.footer-navigation p {
+    margin-bottom: 5px;
+    color: var(--white);
+}
+.footer-navigation a {
+    color: var(--grey);
+}
+
+
+.offer {
+    background-image: url('../img/test1.jpg');
+    background-position: 0px 700px;
+    padding: 50px 0px;
+}
+.offer .wrp {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.offer-cell {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    height: max-content;
+}
+.offer span, .offer ::placeholder {
+    color: var(--grey);
+}
+.offer h2 {
+    color: var(--white);
+}
+
+
+
+
+/* 
+div - Создание простого блока
+
+header - шапка сайта
+main - основная часть сайта
+footer - подвал сайта
+
+! + tad - создание базовой структуры
+
+a - ссылка
+span - текстовый елемент
+p - параграф (тестовый елемент)
+
+input - поле ввода 
+textarea - поле ввода для длинного тескста
+
+img - картинка
+
+link - подключение файлов
+
+Основная структура документа
+html / head / body / Основной контент header/main/footer
+*/
+
+ 
